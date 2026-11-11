@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "hubdoc-browser": {
+      "command": "npx",
+      "args": [
+        "--prefer-offline", "-y", "@playwright/mcp@0.0.85",
+        "--user-data-dir", ".hubdoc-profile"
+      ]
+    }
+  }
+}

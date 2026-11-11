@@ -1,0 +1,8 @@
+# Live login session (cookies, tokens). Never commit or share this.
+.hubdoc-profile/
+session.json
+raw-cookie.txt
+raw-localstorage.json
+
+node_modules/
+.playwright-mcp/
