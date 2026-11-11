@@ -63,3 +63,13 @@ Claude asks for a yes before publishing, deleting, or changing settings.
 - One browser window at a time uses the saved profile.
 - A Hubdoc redesign can change labels. Claude reads the live page, so it
   usually adapts; when it cannot, it says what it sees.
+
+## Memo
+### To copy localStorage and sessionStorage
+
+```js
+copy(JSON.stringify({ ls: { ...localStorage }, ss: { ...sessionStorage } }))
+```
+
+### To copy cookies (including httpOnly cookies)
+Install the cookie-editor extension -> go to your website -> click on the extension -> Export -> JSON
