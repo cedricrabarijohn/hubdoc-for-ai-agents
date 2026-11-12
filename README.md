@@ -73,3 +73,6 @@ copy(JSON.stringify({ ls: { ...localStorage }, ss: { ...sessionStorage } }))
 
 ### To copy cookies (including httpOnly cookies)
 Install the cookie-editor extension -> go to your website -> click on the extension -> Export -> JSON
+
+### To paste the above cookies
+Go to the target website -> Click on the cookie-editor extension -> Import -> Paste the exported JSON from the export
